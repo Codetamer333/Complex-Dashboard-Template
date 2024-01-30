@@ -23,7 +23,7 @@ function Footer({ company, links }) {
       <ArgonBox key={link.name} component="li" px={2} lineHeight={1}>
         <Link href={link.href} target="_blank">
           <ArgonTypography variant="button" fontWeight="regular" color="text">
-            {link.name}
+            Footer
           </ArgonTypography>
         </Link>
       </ArgonBox>
